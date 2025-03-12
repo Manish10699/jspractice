@@ -5,9 +5,6 @@ function userData(firstName,lastName,gmail,age,adress)
         user.gmail = gmail,  
         user.age = age,
         user.address = adress
-    
-    user.about=user.about;
-    user.is18=user.is18;
     return user;
 }
 userData.prototype.about=function(){
